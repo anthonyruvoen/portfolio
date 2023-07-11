@@ -1,0 +1,64 @@
+[
+    {
+      "title": "Booki",
+      "description": "Création d'une page web en HTML & CSS",
+      "skills": [
+          "HTML",
+          "CSS",
+          "VS Code",
+          "github"
+      ],
+      "image": "booki.png",
+      "demoLink": "booki-mockup.webp",
+      "codeLink": "https://github.com/anthonyruvoen/booki"
+    },
+    {
+      "title": "Sophie Bluel",
+      "description": "Création d'un site dynamique en Javascript",
+      "skills": [
+        "Node.js",
+        "API REST",
+        "Token d'authentification"
+      ],
+      "image": "sophie-bluel.png",
+      "demoLink": "sophiebluel-mockup.webp",
+      "codeLink": "https://github.com/anthonyruvoen/sophiebluel"
+    },
+    {
+      "title": "Nina Carducci",
+      "description": "Optimisation et debug de site web",
+      "skills": [
+        "Chrome DevTools",
+        "Wave",
+        "Lighthouse",
+        "Données structurées"
+    ],
+      "image": "nina-carducci.png",
+      "demoLink": "ninacarducci-mockup.webp",
+      "codeLink": "https://github.com/anthonyruvoen/ninacarducci"
+    },
+    {
+      "title": "Kasa",
+      "description": "Création d'une application web en React",
+      "skills": [
+        "React",
+        "React Router",
+        "Hooks"
+    ],
+      "image": "kasa.png",
+      "demoLink": "kasa-mockup.webp",
+      "codeLink": "https://github.com/anthonyruvoen/kasa"
+    },
+    {
+      "title": "Mon vieux grimoire",
+      "description": "Développement du back-end d'un site avec Express.js",
+      "skills": [
+        "Node.js",
+        "Express.js",
+        "MongoDB"
+    ],
+      "image": "grimoire.png",
+      "demoLink": "grimoire-mockup.webp",
+      "codeLink": "https://github.com/anthonyruvoen/monvieuxgrimoire"
+    }
+  ]

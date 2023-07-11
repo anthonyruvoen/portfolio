@@ -1,0 +1,12 @@
+section {
+    max-width: 1240px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 50px;
+    align-items: center;
+}
+#about h2 {
+    margin: 50px 0 50px 0;
+}

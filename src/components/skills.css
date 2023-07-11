@@ -1,0 +1,46 @@
+.skillsCategories {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 50%;
+    margin: auto;
+}
+#skills h2 {
+    margin-top: 50px;
+}
+.skillsCategories p {
+    text-align: left;
+}
+.skillsName p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-size: 22px;
+}
+.skillsName h4 {
+    margin: 15%;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #f57c7c;
+}
+@media screen and (max-width: 960px) {
+    .skillsCategories {
+        width: 100%;
+    }
+    .skillsName h4 {
+        min-height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 460px) {
+    .skillsName h4 {
+        font-size: 22px;
+    }
+    .skillsName p {
+        font-size: 16px;
+    }
+}
