@@ -1,64 +1,42 @@
 [
     {
       "title": "Booki",
-      "description": "Création d'une page web en HTML & CSS",
-      "skills": [
-          "HTML",
-          "CSS",
-          "VS Code",
-          "github"
-      ],
+      "description": "Création de la page d’accueil d’un site de location immobilière avec HTML et CSS",
+      "prob": "La page devait être responsive avec une adaptation des colonnes automatique. Pour cela j’ai utilisé les Flexbox CSS",
       "image": "booki.png",
-      "demoLink": "booki-mockup.webp",
+      "demoLink": "booki-mockup-transp.webp",
       "codeLink": "https://github.com/anthonyruvoen/booki"
     },
     {
       "title": "Sophie Bluel",
-      "description": "Création d'un site dynamique en Javascript",
-      "skills": [
-        "Node.js",
-        "API REST",
-        "Token d'authentification"
-      ],
+      "description": "Création d’un site d’architecte en Javascript avec ajout et suppression de projets",
+      "prob": " L’utilisateur devait pouvoir se connecter et retrouver l’ensemble de ses projets. Pour cela, j’ai mis en place une authentification avec token et une récupération des projets par API",
       "image": "sophie-bluel.png",
-      "demoLink": "sophiebluel-mockup.webp",
+      "demoLink": "sophiebluel-mockup-transp.webp",
       "codeLink": "https://github.com/anthonyruvoen/sophiebluel"
     },
     {
       "title": "Nina Carducci",
-      "description": "Optimisation et debug de site web",
-      "skills": [
-        "Chrome DevTools",
-        "Wave",
-        "Lighthouse",
-        "Données structurées"
-    ],
+      "description": "Optimisation et debug d'un site web de photographe",
+      "prob": "Le site devait être rapide à charger et être adapté à un bon référencement. J’ai donc utilisé les outils Wave et Lighthouse pour optimiser l’ensemble du site.",
       "image": "nina-carducci.png",
-      "demoLink": "ninacarducci-mockup.webp",
+      "demoLink": "ninacarducci-mockup-transp.webp",
       "codeLink": "https://github.com/anthonyruvoen/ninacarducci"
     },
     {
       "title": "Kasa",
-      "description": "Création d'une application web en React",
-      "skills": [
-        "React",
-        "React Router",
-        "Hooks"
-    ],
+      "description": "Création d’un site de location immobilière avec React",
+      "prob": "Le site devait être une « single page application », j’ai donc utilisé React et différents composants pour mettre en place le site et pouvoir naviguer entre les pages sans rechargement du site.",
       "image": "kasa.png",
-      "demoLink": "kasa-mockup.webp",
+      "demoLink": "kasa-mockup-transp.webp",
       "codeLink": "https://github.com/anthonyruvoen/kasa"
     },
     {
       "title": "Mon vieux grimoire",
-      "description": "Développement du back-end d'un site avec Express.js",
-      "skills": [
-        "Node.js",
-        "Express.js",
-        "MongoDB"
-    ],
+      "description": "Création du backend d’un site de notation de livres avec Express.js",
+      "prob": "L’utilisateur devait pouvoir ajouter des livres, les modifier et noter les livres des autres utilisateurs. Pour stocker ces données j’ai utilisé la base de données MongoDB",
       "image": "grimoire.png",
-      "demoLink": "grimoire-mockup.webp",
+      "demoLink": "grimoire-mockup-transp.webp",
       "codeLink": "https://github.com/anthonyruvoen/monvieuxgrimoire"
     }
   ]

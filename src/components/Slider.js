@@ -16,7 +16,7 @@ const Slider = ({ projects }) => {
   // Remettre à zéro la classe de transition après un certain délai
   setTimeout(() => {
     document.querySelector('.slide').classList.remove('transition');
-  }, 500); // ajustez la durée de la transition ici (en millisecondes)
+  }, 500);
   };
 
   return (
@@ -28,10 +28,7 @@ const Slider = ({ projects }) => {
         <div className="slideDescription">
           <img className="logo" src={projects[currentSlide].image} alt={projects[currentSlide].title} />
           <p className='slideDesc'>{projects[currentSlide].description}</p>
-          <p className='slideSkills'>{projects[currentSlide].skills[0]}</p>
-          <p className='slideSkills'>{projects[currentSlide].skills[1]}</p>
-          <p className='slideSkills'>{projects[currentSlide].skills[2]}</p>
-          <p className='slideSkills'>{projects[currentSlide].skills[3]}</p>
+          <p className='slideSkills'>{projects[currentSlide].prob}</p>
           <a href={projects[currentSlide].codeLink} target="_blank" rel="noreferrer">Code source</a>
         </div>
         <div className="link">

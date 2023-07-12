@@ -81,11 +81,12 @@ button {
 }
 
 @media screen and (max-width: 1450px) {
+
     .slide {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
-        margin-bottom: 100px;
+        margin: 200px 0 100px 0;
     }
 }
 @media screen and (max-width: 960px) {
